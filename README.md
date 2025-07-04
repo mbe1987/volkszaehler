@@ -11,25 +11,6 @@ volkszaehler.org is a free smart meter implementation with focus on data privacy
 
 ![Screenshot](misc/docs/screenshot.png?raw=true)
 
-
-## Quickstart
-
-The easiest way to try out volkszaehler is using Docker:
-
-    docker-compose up -d
-
-which will create a database, initialize it and start volkszaehler at port 8080.
-
-## Installation
-
-For local installation, run the install script from the shell:
-
-    wget https://raw.github.com/volkszaehler/volkszaehler.org/master/bin/install.sh
-    bash install.sh
-
-Or follow the detailed installation instructions at http://wiki.volkszaehler.org/software/middleware/installation
-
-
 ## Documentation
 
 * Website: [volkszaehler.org](http://volkszaehler.org)
@@ -46,18 +27,10 @@ Or follow the detailed installation instructions at http://wiki.volkszaehler.org
 ## Repository structure
 
     volkszaehler.org/
-     |_ etc/                    configuration files
-     |_ bin/                    scripts for imports, installation etc.
      |_ htdocs/                 web UI
-     |   \_ middleware.php      middleware
-     |
-     |_ lib/                    middleware libraries
-     |_ test/                   unit tests
      \_ misc/
          |_ docs/               documentation
          |_ graphics/           graphics for docs, etc.
-         \_ sql/                database schema dumps
-             \_ demo/           demo data
 
 
 ## Copyright
